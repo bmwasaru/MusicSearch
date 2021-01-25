@@ -1,5 +1,6 @@
-# Music Search App
+Music Search App: Search for music from iTunes
 
-Search for music from iTunes
-
-![screenshot](screenshot/screenshot.jpeg)
+<p align="center">
+  <img src="screenshot/screenshot.jpeg" width="270"/>
+  <img src="screenshot/screenshot2.jpeg" width="270"/>
+</p>
