@@ -11,6 +11,9 @@
 		DAE1A79A25BE67330079880D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1A79925BE67330079880D /* ContentView.swift */; };
 		DAE1A79C25BE67360079880D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE1A79B25BE67360079880D /* Assets.xcassets */; };
 		DAE1A79F25BE67360079880D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE1A79E25BE67360079880D /* Preview Assets.xcassets */; };
+		DAE1A7A825BE6AFD0079880D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1A7A725BE6AFD0079880D /* DataModel.swift */; };
+		DAE1A7AB25BE6F9F0079880D /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1A7AA25BE6F9F0079880D /* SongListViewModel.swift */; };
+		DAE1A7AE25BE7A040079880D /* ArtworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1A7AD25BE7A040079880D /* ArtworkLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DAE1A79B25BE67360079880D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE1A79E25BE67360079880D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAE1A7A025BE67360079880D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE1A7A725BE6AFD0079880D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DAE1A7AA25BE6F9F0079880D /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		DAE1A7AD25BE7A040079880D /* ArtworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				DAE1A79725BE67330079880D /* Music_SearchApp.swift */,
 				DAE1A79925BE67330079880D /* ContentView.swift */,
+				DAE1A7AD25BE7A040079880D /* ArtworkLoader.swift */,
+				DAE1A7A725BE6AFD0079880D /* DataModel.swift */,
+				DAE1A7AA25BE6F9F0079880D /* SongListViewModel.swift */,
 				DAE1A79B25BE67360079880D /* Assets.xcassets */,
 				DAE1A7A025BE67360079880D /* Info.plist */,
 				DAE1A79D25BE67360079880D /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE1A79A25BE67330079880D /* ContentView.swift in Sources */,
+				DAE1A7AB25BE6F9F0079880D /* SongListViewModel.swift in Sources */,
+				DAE1A7AE25BE7A040079880D /* ArtworkLoader.swift in Sources */,
 				DAE1A79825BE67330079880D /* Music_SearchApp.swift in Sources */,
+				DAE1A7A825BE6AFD0079880D /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
